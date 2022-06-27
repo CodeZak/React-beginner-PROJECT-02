@@ -1,0 +1,42 @@
+.container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.card {
+    color: white;
+    margin: 5px;
+    background-color: rgb(47, 101, 129);
+    padding: 20px;
+    height: 400px;
+}
+img {
+    width: 85%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0px -40px;
+    margin: auto;
+    border: 3px solid white;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info span:first-child {
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.info span:nth-child(2) {
+    font-size: 1.3em;
+}
+
+h1 {
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(47, 101, 129);
+}
